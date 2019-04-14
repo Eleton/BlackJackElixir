@@ -1,21 +1,14 @@
 # BlackJack
 
-**TODO: Add description**
+I made a Black Jack command line game in Elixir.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `black_jack` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:black_jack, "~> 0.1.0"}
-  ]
-end
+With at least elixir 1.6 installed, run
 ```
+iex -S mix
+````
+from the root directory and follow the command line instructions to play the game.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/black_jack](https://hexdocs.pm/black_jack).
-
+Each game is started with a newly shuffled complete deck.
+You win if you score more than the dealer without exceeding 21. Even score results in a tie.
